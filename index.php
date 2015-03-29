@@ -9,6 +9,7 @@
         <?php
             echo $_SERVER['HTTP_HOST'];
             echo $_SERVER['SERVER_ADDR'];
+            echo $_SERVER['HTTP_HOST'];
 		  ?>
     </body>
 </html>
