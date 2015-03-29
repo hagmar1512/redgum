@@ -7,8 +7,8 @@
     <body>
         <p>Hello World</p>
         <?php
-            echo "HTTP_HOST=".$_SERVER['HTTP_HOST']."\n";
-            echo "SERVER_ADDR=".$_SERVER['SERVER_ADDR']."\n";
+            echo "<p>HTTP_HOST=".$_SERVER['HTTP_HOST']."</p>";
+            echo "<p>SERVER_ADDR=".$_SERVER['SERVER_ADDR']."</p>";
 		  ?>
     </body>
 </html>
